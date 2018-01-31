@@ -5,19 +5,207 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Bootstrap 4 Starter Pack</title>
+  <title>JohnBer</title>
+  <style type="text/css">
+    @media only screen and (max-width: 767px) {
+      .about-img{display: none;}
+    }
+
+  </style>
   <link rel="stylesheet" href="css/font-awesome.min.css">
   <link rel="stylesheet" href="css/bootstrap.css">
   <link rel="stylesheet" href="/css/style.css">
+
 </head>
 
 <body>
-  <h1>Boostrap 4 Starter Pack</h1>
-  <p>Version 4.0.0-beta</p>
+
+
+  <nav class="nav navbar navbar-expand-md py-3 navbar-dark bg-dark">
+    <div class="container">
+      <div class="nav-header pl-4 py-2">
+        <a href="index.html" class="navbar-brand">ㅈㅗㄴㅂㅓ </a>
+        <img src="http://hdwpro.com/wp-content/uploads/2017/10/Wonderful-Beautiful-Cat.jpg" width="50" height="50" class="rounded-circle" alt="logo" title="cat-logo">
+      </div>
+      <button type="button" class="navbar-toggler mr-2" data-toggle="collapse" data-target="#collapsibleNavbar" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse pl-3" id="collapsibleNavbar">
+        <ul class="nav navbar-nav" id="collapsibleNav-item">
+          <li class="nav-item active">
+            <a href="index.html" class="nav-link">존버란?</a>
+          </li>
+          <li class="nav-item">
+            <a href="legend.html" class="nav-link">존버전설</a>
+          </li>
+          <li class="nav-item">
+            <a href="jjal.html" class="nav-link">존버짤</a>
+          </li>
+          <li class="nav-item">
+            <a href="life.html" class="nav-link">존버인생</a>
+          </li>
+        </ul>
+
+        <ul class="nav navbar-nav ml-auto" id="Navbar-Status">
+          <li class="nav-item dropdown">
+            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" id="id">
+              <i class="fa fa-user"></i> Edan Lee
+            </a>
+            <div class="dropdown-menu">
+              <a href="login.html" class="dropdown-item">
+                <i class="fa fa-user-times"></i> 로그아웃
+              </a>
+              <div class="dropdown-divider"></div>
+              <a href="profile.html" class="dropdown-item">
+                <i class="fa fa-user-circle"></i> 프로필
+              </a>
+              <a href="settings.html" class="dropdown-item">
+                <i class="fa fa-gear"></i> 설정
+              </a>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- 존버란? -->
+  <section class="about">
+    <div class="container pt-5">
+      <div class="row">
+        <div class="col about-header">
+          <h1>존버에 대하여...</h1>
+        </div>
+      </div>
+
+        <div class="row selector container d-flex justify-content-end">
+          <form action="">
+          <select name="lang" id="lang-selectBox">
+            <option value="KR" selected>한글</option>
+            <option value="EN">English</option>
+            <option value="CH">中文</option>
+          </select>
+          </form>
+        </div>
+
+      <div class="container mt-4">
+        <div class="row" >
+          <div class="about-img col-md-4">
+          <img id="about-jb" title="Mr.John" class="img-thumbnail" src="https://steemit-production-imageproxy-thumbnail.s3.amazonaws.com/DQmXaBtUF1J6DLAeNK4KaepPWdQdgW617nyr9Q8FE5oo5gt_1680x8400" alt="존버">
+          </div>
+          <div class="about-contents col-md-8">
+            <div class="lang p-4 mx-auto" id="Korean">
+              <p>아무 문제 없습니다. 이 아이는 브리스톨 상공을 날아오는 동안  잠들었습니다. 그 아이를 깨우지 마세요. 여기 있어요.
+              알버스. 이 애를 그들에게 맡기는 것이 정말로 안전하다고 생각하세요? 난 그들을 하루 종일 지켜보았어요.
+              그들은 상상도 할 수 없을 만큼이나 아주 못된 머글들이에요. 아무 문제 없습니다. 이 아이는 브리스톨 상공을 날아오는 동안  잠들었습니다. 그 아이를 깨우지 마세요. 여기 있어요.
+              알버스. 이 애를 그들에게 맡기는 것이 정말로 안전하다고 생각하세요? 난 그들을 하루 종일 지켜보았어요.아무 문제 없습니다. 이 아이는 브리스톨 상공을 날아오는 동안  잠들었습니다. 그 아이를 깨우지 마세요. 여기 있어요.
+              알버스. 이 애를 그들에게 맡기는 것이 정말로 안전하다고 생각하세요? 난 그들을 하루 종일 지켜보았어요.아무 문제 없습니다. 이 아이는 브리스톨 상공을 날아오는 동안  잠들었습니다. 그 아이를 깨우지 마세요. 여기 있어요.
+              알버스. 이 애를 그들에게 맡기는 것이 정말로 안전하다고 생각하세요? 난 그들을 하루 종일 지켜보았어요.아무 문제 없습니다. 이 아이는 브리스톨 상공을 날아오는 동안  잠들었습니다. 그 아이를 깨우지 마세요. 여기 있어요.
+              알버스. 이 애를 그들에게 맡기는 것이 정말로 안전하다고 생각하세요? 난 그들을 하루 종일 지켜보았어요.아무 문제 없습니다. 이 아이는 브리스톨 상공을 날아오는 동안  잠들었습니다. 그 아이를 깨우지 마세요. 여기 있어요.
+              알버스. 이 애를 그들에게 맡기는 것이 정말로 안전하다고 생각하세요? 난 그들을 하루 종일 지켜보았어요.아무 문제 없습니다. 이 아이는 브리스톨 상공을 날아오는 동안  잠들었습니다. 그 아이를 깨우지 마세요. 여기 있어요.
+              알버스. 이 애를 그들에게 맡기는 것이 정말로 안전하다고 생각하세요? 난 그들을 하루 종일 지켜보았어요.아무 문제 없습니다. 이 아이는 브리스톨 상공을 날아오는 동안  잠들었습니다. 그 아이를 깨우지 마세요. 여기 있어요.
+              알버스. 이 애를 그들에게 맡기는 것이 정말로 안전하다고 생각하세요? 난 그들을 하루 종일 지켜보았어요.아무 문제 없습니다. 이 아이는 브리스톨 상공을 날아오는 동안  잠들었습니다. 그 아이를 깨우지 마세요. 여기 있어요.
+              알버스. 이 애를 그들에게 맡기는 것이 정말로 안전하다고 생각하세요? 난 그들을 하루 종일 지켜보았어요.아무 문제 없습니다. 이 아이는 브리스톨 상공을 날아오는 동안  잠들었습니다. 그 아이를 깨우지 마세요. 여기 있어요.
+              알버스. 이 애를 그들에게 맡기는 것이 정말로 안전하다고 생각하세요? 난 그들을 하루 종일 지켜보았어요.아무 문제 없습니다. 이 아이는 브리스톨 상공을 날아오는 동안  잠들었습니다. 그 아이를 깨우지 마세요. 여기 있어요.
+              알버스. 이 애를 그들에게 맡기는 것이 정말로 안전하다고 생각하세요? 난 그들을 하루 종일 지켜보았어요.!..</p>
+            </div>
+            <div class="lang p-4 mx-auto" hidden id="English">
+              <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea laboriosam, voluptatum ipsam a esse officiis voluptates qui adipisci quod facere ducimus velit numquam repellendus quisquam reiciendis pariatur beatae, sint non.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea laboriosam, voluptatum ipsam a esse officiis voluptates qui adipisci quod facere ducimus velit numquam repellendus quisquam reiciendis pariatur beatae, sint non.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea laboriosam, voluptatum ipsam a esse officiis voluptates qui adipisci quod facere ducimus velit numquam repellendus quisquam reiciendis pariatur beatae, sint non.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea laboriosam, voluptatum ipsam a esse officiis voluptates qui adipisci quod facere ducimus velit numquam repellendus quisquam reiciendis pariatur beatae, sint non.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea laboriosam, voluptatum ipsam a esse officiis voluptates qui adipisci quod facere ducimus velit numquam repellendus quisquam reiciendis pariatur beatae, sint non.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea laboriosam, voluptatum ipsam a esse officiis voluptates qui adipisci quod facere ducimus velit numquam repellendus quisquam reiciendis pariatur beatae, sint non.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea laboriosam, voluptatum ipsam a esse officiis voluptates qui adipisci quod facere ducimus velit numquam repellendus quisquam reiciendis pariatur beatae, sint non.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea laboriosam, voluptatum ipsam a esse officiis voluptates qui adipisci quod facere ducimus velit numquam repellendus quisquam reiciendis pariatur beatae, sint non.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea laboriosam, voluptatum ipsam a esse officiis voluptates qui adipisci quod facere ducimus velit numquam repellendus quisquam reiciendis pariatur beatae, sint non.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea laboriosam, voluptatum ipsam a esse officiis voluptates qui adipisci quod facere ducimus velit numquam repellendus quisquam reiciendis pariatur beatae, sint non.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea laboriosam, voluptatum ipsam a esse officiis voluptates qui adipisci quod facere ducimus velit numquam repellendus quisquam reiciendis pariatur beatae, sint non.</p>
+            </div>
+            <div class="lang p-4 mx-auto" hidden id="Chinese">
+              <p> 没有问题。这个孩子在布里斯托尔上空飞行时睡着了。不要叫醒孩子。在这里。
+              阿尔伯斯。你真的认为把这个孩子留给他们是安全的吗？我整天看着他们。
+              他们和他们想象的一样糟糕。这个孩子在布里斯托尔上空飞行时睡着了。不要叫醒孩子。在这里。
+              阿尔伯斯。你真的认为把这个孩子留给他们是安全的吗？我整天看着他们。
+              他们和他们想象的一样糟糕。他们是真实的这个孩子在布里斯托尔上空飞行时睡着了。不要叫醒孩子。在这里。
+              阿尔伯斯。你真的认为把这个孩子留给他们是安全的吗？我整天看着他们。
+              他们和他们想象的一样糟糕。他们是真实的这个孩子在布里斯托尔上空飞行时睡着了。不要叫醒孩子。在这里。
+              阿尔伯斯。你真的认为把这个孩子留给他们是安全的吗？我整天看着他们。
+              他们和他们想象的一样糟糕。他们是真实的这个孩子在布里斯托尔上空飞行时睡着了。不要叫醒孩子。在这里。
+              阿尔伯斯。你真的认为把这个孩子留给他们是安全的吗？我整天看着他们。
+              他们和他们想象的一样糟糕。他们是真实的这个孩子在布里斯托尔上空飞行时睡着了。不要叫醒孩子。在这里。
+              阿尔伯斯。你真的认为把这个孩子留给他们是安全的吗？我整天看着他们。
+              他们和他们想象的一样糟糕。他们是真实的这个孩子在布里斯托尔上空飞行时睡着了。不要叫醒孩子。在这里。
+              阿尔伯斯。你真的认为把这个孩子留给他们是安全的吗？我整天看着他们。
+              他们和他们想象的一样糟糕。他们是真实的这个孩子在布里斯托尔上空飞行时睡着了。不要叫醒孩子。在这里。
+              阿尔伯斯。你真的认为把这个孩子留给他们是安全的吗？我整天看着他们。
+              他们和他们想象的一样糟糕。他们是真实的这个孩子在布里斯托尔上空飞行时睡着了。不要叫醒孩子。在这里。
+              阿尔伯斯。你真的认为把这个孩子留给他们是安全的吗？我整天看着他们。
+              他们和他们想象的一样糟糕。他们是真实的这个孩子在布里斯托尔上空飞行时睡着了。不要叫醒孩子。在这里。
+              阿尔伯斯。你真的认为把这个孩子留给他们是安全的吗？我整天看着他们。
+              他们和他们想象的一样糟糕。他们是真实的这个孩子在布里斯托尔上空飞行时睡着了。不要叫醒孩子。在这里。
+              阿尔伯斯。你真的认为把这个孩子留给他们是安全的吗？我整天看着他们。
+              他们和他们想象的一样糟糕。他们是真实的这个孩子在布里斯托尔上空飞行时睡着了。不要叫醒孩子。在这里。
+              阿尔伯斯。你真的认为把这个孩子留给他们是安全的吗？我整天看着他们。
+              他们和他们想象的一样糟糕。他们是真实的这个孩子在布里斯托尔上空飞行时睡着了。不要叫醒孩子。在这里。
+              阿尔伯斯。你真的认为把这个孩子留给他们是安全的吗？我整天看着他们。
+              他们和他们想象的一样糟糕。他们是真实的这个孩子在布里斯托尔上空飞行时睡着了。不要叫醒孩子。在这里。
+              阿尔伯斯。你真的认为把这个孩子留给他们是安全的吗？我整天看着他们。
+              他们和他们想象的一样糟糕。他们是真实的这个孩子在布里斯托尔上空飞行时睡着了。不要叫醒孩子。在这里。
+              阿尔伯斯。你真的认为把这个孩子留给他们是安全的吗？我整天看着他们。
+              他们和他们想象的一样糟糕。他们是真实的这个孩子在布里斯托尔上空飞行时睡着了。不要叫醒孩子。在这里。
+              阿尔伯斯。你真的认为把这个孩子留给他们是安全的吗？我整天看着他们。
+              他们和他们想象的一样糟糕。他们是真实的这个孩子在布里斯托尔上空飞行时睡着了。不要叫醒孩子。在这里。
+              阿尔伯斯。你真的认为把这个孩子留给他们是安全的吗？我整天看着他们。
+              他们和他们想象的一样糟糕。他们是真实的这个孩子在布里斯托尔上空飞行时睡着了。不要叫醒孩子。在这里。
+              阿尔伯斯。你真的认为把这个孩子留给他们是安全的吗？我整天看着他们。
+              他们和他们想象的一样糟糕。他们是真实的他们是真实的...</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- FOOTER -->
+  <footer id="main-footer" class="text-center p-4">
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <p>Copyright 2018 &copy; ㅈㅗㄴㅂㅓ </p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+
+
+
 
   <script src="js/jquery.min.js"></script>
   <script src="js/popper.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
+  <script>
+      $('.dropdown').on('show.bs.dropdown', function() {
+      $(this).find('.dropdown-menu').first().stop(true, true).slideDown();
+    });
+
+    // Add slideUp animation to Bootstrap dropdown when collapsing.
+    $('.dropdown').on('hide.bs.dropdown', function() {
+      $(this).find('.dropdown-menu').first().stop(true, true).slideUp();
+    });
+  </script>
+  <script type="text/javascript">
+    $("#lang-selectBox").change(function (){
+      let lang = $(this).val();
+      console.log(lang);
+
+      if( lang == "EN") {
+            $("#Korean").prop("hidden",true);
+             $("#English").prop("hidden",false);
+               $("#Chinese").prop("hidden",true); }
+         else if ( lang === "KR") {
+           $("#Korean").prop("hidden",false);
+            $("#English").prop("hidden",true);
+              $("#Chinese").prop("hidden",true);}
+          else { $("#Korean").prop("hidden",true);
+           $("#English").prop("hidden",true);
+             $("#Chinese").prop("hidden",false); }
+      });
+  </script>
+
 </body>
 
 </html>

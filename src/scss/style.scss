@@ -1,0 +1,72 @@
+html, body {
+  height: 100%;
+}
+
+.navbar{
+
+  .nav-header{
+    display: inline-flex;
+
+
+    .navbar-brand{
+      position: relative;
+      font-size: 1.8rem;
+      letter-spacing: 6px;
+      font-weight: 900;
+      align-self: center;
+    }
+  }
+
+  #collapsibleNavbar{
+    font-weight: 200;
+
+    #collapsibleNav-item{
+      letter-spacing: 1px;
+    }
+} //END of .navbar
+
+
+}
+
+#Navbar-Status{
+  position: relative;
+
+  #id{
+    font-weight: 200;
+    width:140px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+}
+
+.about{
+
+
+  .about-header{
+    margin-left: 5px;
+  }
+
+    .selector{
+      display: block;
+    //  border: 1px black solid;
+    }
+
+  select {
+    width: 85px;
+    height: 30px;
+
+    //border: 1px solid #999;
+  }
+  #about-jb{
+    width: 90%;
+    margin-top: 40px;
+
+  }
+
+}
+
+
+#main-footer{
+  border-top: 1px black solid;
+}
