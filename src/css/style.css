@@ -71,12 +71,29 @@ html, body {
 a.card-links:hover {
   color: skyblue !important; }
   a.card-links:hover .card {
-    box-shadow: 1px 1px 2px 2px skyblue; }
+    box-shadow: 1px 1px 8px 3px skyblue; }
     a.card-links:hover .card .fa {
       color: black; }
 
-.fa {
-  font-size: 1.3rem; }
+.post-box {
+  width: 80%; }
+
+#post-image-div {
+  height: 400px;
+  display: flex;
+  justify-content: center; }
+
+.list-inline-item {
+  font-size: 0.9rem;
+  padding-right: 2rem; }
+
+.post-info .container .row {
+  border-bottom: 1px rgba(82, 82, 82, 0.4) solid; }
+
+.icon-count {
+  font-size: 1.1rem; }
+  .icon-count span {
+    margin-left: 5px; }
 
 #main-footer {
   border-top: 1px black solid; }

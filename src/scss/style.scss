@@ -30,7 +30,7 @@
     }
 }
 
-$icon-size: 1.3rem;
+$icon-size: 1.1rem;
 
 html, body {
   height: 100%;
@@ -112,7 +112,7 @@ html, body {
 
 a.card-links:hover {
   color:skyblue !important;
-  .card{box-shadow: 1px 1px 2px 2px skyblue;
+  .card{box-shadow: 1px 1px 8px 3px skyblue;
 
     .fa{
       color:black;
@@ -121,10 +121,40 @@ a.card-links:hover {
 
 }
 
-
-.fa {
-  font-size: $icon-size;
+.post-box{
+  width: 80%;
 }
+
+#post-image-div{
+  //width: 700px;
+  height: 400px;
+
+  display: flex;
+  justify-content: center;
+
+}
+
+.list-inline-item{
+  font-size: 0.9rem;
+  padding-right: 2rem;
+}
+
+.post-info{
+
+  .container{
+
+    .row{ border-bottom: 1px rgba(82, 82, 82, 0.4) solid; }
+
+  }
+}
+
+.icon-count {
+  font-size: $icon-size;
+  span{
+    margin-left: 5px;
+  }
+}
+
 
 #main-footer{
   border-top: 1px black solid;
