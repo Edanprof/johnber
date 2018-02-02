@@ -71,19 +71,22 @@
 
   <!-- 존버전설 -->
   <section id="legend" class="pt-5 pb-3">
+    <div class="legend-box">
     <div class="container">
-      <div class="heading pb-2">
-        <h1>전설의 전설</h1>
-      </div>
+      <section class="legend-heading" role="Page Header">
+        <div class="container pb-2">
+          <a id="legend-heading" href="legend.html"><span>전설의 전설</span></a>
+        </div>
+      </section>
 
   <!-- LEGEND CONTROL BTN FOR POSTs -->
       <div class="container card-controler pb-3">
         <div class="row justify-content-end">
           <form action="">
             <div class="btn btn-group px-2" role="group">
-              <button type="button" class="mr-1 btn btn-outline-secondary btn-sm" role="write">작성</button>
-              <button type="button" class="mr-1 btn btn-outline-secondary btn-sm" role="edit">편집</button>
-              <button type="button" class="mr-1 btn btn-outline-secondary btn-sm" role="delete">삭제</button>
+              <a href="#" class="btn btn-outline-secondary btn-sm" data-toggle="modal" data-target="#addPostModal" role="write">
+                <i class="fas fa-plus fa-lg"></i>
+              </a>
             </div>
           </form>
         </div>
@@ -92,9 +95,7 @@
   <!-- LEGEND ARTICLES -->
       <div class="row">
         <div class="col">
-
           <div class="card-columns">
-
             <a href="legend_article.html" class="card-links text-dark">
               <div class="card">
               <img src="img/logo1.jpg" alt="Coin Name" class="card-img-top img-fluid">
@@ -104,12 +105,12 @@
                 <hr>
                 <p class="card-text"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis prsicing elit. Perferendis praesentium, sequi minima nobis dignissimos a, neque exercitationem esse nulla ad, debitis odit. Tempore quibusdam blanditiis moem esse nulla ad, debitis odit. Tempore quibusdam bland </p>
                 <footer class="pt-3">
-                  <div class="d-flex flex-row justify-content-center">
+                  <div class="card-footer d-flex flex-row justify-content-center">
                   <div class="icon-count">
-                  <i class="far fa-comments"></i><span class="badge badge-pill badge-secondary ">31</span>
+                  <i class="far fa-comments"></i><span class="badge badge-pill badge-secondary ">3122</span>
                   </div>
                   <div class="icon-count px-4">
-                  <i class="fas fa-heart"></i><span class="badge badge-pill badge-secondary ">321</span>
+                  <i class="fas fa-heart"></i><span class="badge badge-pill badge-secondary ">3221</span>
                   </div>
                   <div class="icon-count">
                   <i class="fas fa-eye"></i><span class="badge badge-pill badge-secondary ">3411</span>
@@ -129,7 +130,7 @@
                   <hr>
                   <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis praesentium, sequi minima nobis dignissimos a, neque exercitationem esse nulla ad, debitis odit. Tempore quibusdam blanditiis modi aliquam corrupti officia tenetur.</p>
                   <footer class="pt-3">
-                    <div class="d-flex flex-row justify-content-center">
+                    <div class="card-footer d-flex flex-row justify-content-center">
                     <div class="icon-count">
                     <i class="far fa-comments"></i><span class="badge badge-pill badge-secondary ">31</span>
                     </div>
@@ -154,7 +155,7 @@
                   <hr>
                   <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis praesentium, sequi minima nobis dignissimos a, neque exercitationem esse nulla ad, debitis odit. Tempore quibusdam blanditiis modi aliquam corrupti officia tenetur.</p>
                   <footer class="pt-3">
-                    <div class="d-flex flex-row justify-content-center">
+                    <div class="card-footer d-flex flex-row justify-content-center">
                     <div class="icon-count">
                     <i class="far fa-comments"></i><span class="badge badge-pill badge-secondary ">31</span>
                     </div>
@@ -179,7 +180,7 @@
                   <hr>
                   <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis praesentium, sequi minima nobis dignissimos a, neque exercitationem esse nulla ad, debitis oduibusdam blanditiis modi aliquam corrupti officia tenetur.</p>
                   <footer class="pt-3">
-                    <div class="d-flex flex-row justify-content-center">
+                    <div class="card-footer d-flex flex-row justify-content-center">
                     <div class="icon-count">
                     <i class="far fa-comments"></i><span class="badge badge-pill badge-secondary ">31</span>
                     </div>
@@ -204,7 +205,7 @@
                   <hr>
                   <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis praesentium, sequi minima nobis dignissimos a, neque exercitationem esse nulla ad, debitis odit. Tempore quibusdam blanditiis modi aliquam corrupti officia tenetur.</p>
                   <footer class="pt-3">
-                    <div class="d-flex flex-row justify-content-center">
+                    <div class="card-footer d-flex flex-row justify-content-center">
                     <div class="icon-count">
                     <i class="far fa-comments"></i><span class="badge badge-pill badge-secondary ">31</span>
                     </div>
@@ -229,7 +230,7 @@
                   <hr>
                   <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis praesentium, sequi minima nobis dignissimos a, neque exercitationem esse nulla ad, debitis odit. Tempore quibusdam blanditiis modi aliquam corrupti officia tenetur.</p>
                   <footer class="pt-3">
-                    <div class="d-flex flex-row justify-content-center">
+                    <div class="card-footer d-flex flex-row justify-content-center">
                     <div class="icon-count">
                     <i class="far fa-comments"></i><span class="badge badge-pill badge-secondary ">31</span>
                     </div>
@@ -250,7 +251,7 @@
       </div>
 
   <!-- PAGINATION -->
-      <nav aria-label="Page navigation">
+      <div id="legend-pagination" class="container" aria-label="Page navigation">
         <ul class="pagination justify-content-center pt-4">
           <li class="page-item disabled">
             <a class="page-link" href="#" aria-label="Previous">
@@ -270,11 +271,10 @@
             </a>
           </li>
         </ul>
-      </nav>
+      </div>
     </div>
-
+  </div>
   </section>
-
 
   <!-- FOOTER -->
   <footer id="main-footer" class="text-center p-4">
@@ -287,7 +287,43 @@
   </div>
 </footer>
 
-
+<!-- POST MODAL -->
+ <div class="modal fade" id="addPostModal">
+   <div class="modal-dialog modal-lg">
+     <div class="modal-content">
+       <div class="modal-header bg-dark text-white">
+         <h5 class="modal-title">작성</h5>
+         <button class="close btn bg-light" data-dismiss="modal"><span>&times;</span></button>
+       </div>
+       <div class="modal-body">
+         <form>
+           <div class="form-group">
+             <label for="title">제목</label>
+             <input type="text" class="form-control">
+           </div>
+           <div class="form-group">
+             <label for="category">분류</label>
+             <select class="form-control">
+               <option value="">Web Development</option>
+               <option value="">Tech Hadgets</option>
+               <option value="">Business</option>
+               <option value="">Heath & Wellness</option>
+             </select>
+           </div>
+           <div class="form-group">
+             <label for="body">내용</label>
+             <textarea name="editor1" class="form-control"></textarea>
+           </div>
+         </form>
+       </div>
+       <div class="modal-footer">
+         <button class="btn btn-secondary" data-dismiss="modal">닫기</button>
+         <button class="btn btn-primary" data-dismiss="modal">임시저장</button>
+         <button class="btn btn-success" data-dismiss="modal">게시하기</button>
+       </div>
+     </div>
+   </div>
+ </div>
 
 
 
@@ -306,25 +342,11 @@
       $(this).find('.dropdown-menu').first().stop(true, true).slideUp();
     });
   </script>
-  <script type="text/javascript">
-    $("#lang-selectBox").change(function (){
-      let lang = $(this).val();
-      console.log(lang);
 
-      if( lang == "EN") {
-            $("#Korean").prop("hidden",true);
-             $("#English").prop("hidden",false);
-               $("#Chinese").prop("hidden",true); }
-         else if ( lang === "KR") {
-           $("#Korean").prop("hidden",false);
-            $("#English").prop("hidden",true);
-              $("#Chinese").prop("hidden",true);}
-          else { $("#Korean").prop("hidden",true);
-           $("#English").prop("hidden",true);
-             $("#Chinese").prop("hidden",false); }
-      });
-  </script>
-
+  <script src="https://cdn.ckeditor.com/4.8.0/standard/ckeditor.js"></script>
+  <script>
+			CKEDITOR.replace( 'editor1' );
+	</script>
 </body>
 
 </html>
