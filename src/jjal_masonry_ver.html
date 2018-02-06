@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>JohnBer</title>
+  <style type="text/css">
+    @media only screen and (max-width: 767px) {
+      .about-img{display: none;}
+    }
+
+  </style>
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+
+  <!-- NAVIGATION MENU -->
+  <nav class="nav navbar navbar-expand-md py-3 navbar-dark bg-dark">
+    <div class="container">
+      <div class="nav-header pl-4 py-2">
+        <a href="index.html" class="navbar-brand">ㅈㅗㄴㅂㅓ </a>
+        <img src="http://hdwpro.com/wp-content/uploads/2017/10/Wonderful-Beautiful-Cat.jpg" width="50" height="50" class="rounded-circle" alt="logo" title="cat-logo">
+      </div>
+      <button type="button" class="navbar-toggler mr-2" data-toggle="collapse" data-target="#collapsibleNavbar" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse pl-3" id="collapsibleNavbar">
+        <ul class="nav navbar-nav" id="collapsibleNav-item">
+          <li class="nav-item">
+            <a href="index.html" class="nav-link">존버란?</a>
+          </li>
+          <li class="nav-item">
+            <a href="legend.html" class="nav-link">존버전설</a>
+          </li>
+          <li class="nav-item active">
+            <a href="jjal_masonry_ver.html" class="nav-link">존버짤</a>
+          </li>
+          <li class="nav-item">
+            <a href="life.html" class="nav-link">존버인생</a>
+          </li>
+        </ul>
+
+        <ul class="nav navbar-nav ml-auto" id="Navbar-Status">
+          <li class="nav-item dropdown">
+            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" id="id">
+              <i class="fa fa-user"></i> Edan Lee
+            </a>
+            <div class="dropdown-menu">
+              <a href="login.html" class="dropdown-item">
+                <i class="fa fa-user-times"></i> 로그아웃
+              </a>
+              <div class="dropdown-divider"></div>
+              <a href="profile.html" class="dropdown-item">
+                <i class="fa fa-user-circle"></i> 프로필
+              </a>
+              <a href="settings.html" class="dropdown-item">
+                <i class="fa fa-gear"></i> 설정
+              </a>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- 존버짤 -->
+  <section id="jjal" class="pt-5">
+    <div class="container px-4 jjal-box">
+
+
+  <!-- HEADLINE -->
+      <section class="page-header" role="Page Header">
+        <div class="container pb-2">
+          <a id="jjal-heading" href="jjal_masonry_ver.html"><span>전설의 짤</span></a>
+        </div>
+      </section>
+
+  <!-- btn -->
+  <section id="jjal">
+    <div class="container jjal-controler pb-3">
+      <div class="row justify-content-end">
+        <form action="">
+          <div class="btn btn-group px-2" role="group">
+            <a href="#" class="btn btn-outline-secondary btn-sm" data-toggle="modal" data-target="#addPostModal" role="write">
+              <i class="fas fa-plus fa-lg"></i>
+            </a>
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- MASONRY ARTICLE BOARD -->
+    <div id="columns">
+      <div class="container">
+        <a href="img/testimage1.jpg" data-toggle="modal" data-target="#show-image">
+          <div id="img-container">
+            <img src="img/testimage1.jpg" alt="image1" align="middle">
+          </div>
+          <div id="overlay"></div>
+        </a>
+        <div id="img-heading">
+          <span>Title...</span>
+        </div>
+        <div id="btns">
+          <div id="img-good-btn" class="btns">
+            <button class="btn btn-outline-success"><i id="eval-good-icon" class="far fa-thumbs-up"></i> <span class="badge badge-outline">32</span></button>
+          </div>
+          <div id="img-bad-btn" class="btns">
+            <button class="btn btn-outline-danger"><i id="eval-bad-icon" class="far fa-thumbs-down"></i> <span class="badge badge-outline">7</span></button>
+          </div>
+          <div id="img-down-btn" class="btns">
+            <button class="btn btn-outline-light"><i id="download-icon" class="fas fa-download"></i></button>
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <a href="img/testimage2.jpg" data-toggle="modal" data-target="#show-image">
+          <div id="img-container">
+            <img src="img/testimage2.jpg" alt="image1" align="middle">
+          </div>
+          <div id="overlay"></div>
+        </a>
+        <div id="img-heading">
+          <span>Title...</span>
+        </div>
+        <div id="btns">
+          <div id="img-good-btn" class="btns">
+            <button class="btn btn-outline-success"><i id="eval-good-icon" class="far fa-thumbs-up"></i> <span class="badge badge-outline">32</span></button>
+          </div>
+          <div id="img-bad-btn" class="btns">
+            <button class="btn btn-outline-danger"><i id="eval-bad-icon" class="far fa-thumbs-down"></i> <span class="badge badge-outline">7</span></button>
+          </div>
+          <div id="img-down-btn" class="btns">
+            <button class="btn btn-outline-light"><i id="download-icon" class="fas fa-download"></i></button>
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <a href="img/testimage3.jpg" data-toggle="modal" data-target="#show-image">
+          <div id="img-container">
+            <img src="img/testimage3.jpg" alt="image1" align="middle">
+          </div>
+          <div id="overlay"></div>
+        </a>
+        <div id="img-heading">
+          <span>Title...</span>
+        </div>
+        <div id="btns">
+          <div id="img-good-btn" class="btns">
+            <button class="btn btn-outline-success"><i id="eval-good-icon" class="far fa-thumbs-up"></i> <span class="badge badge-outline">32</span></button>
+          </div>
+          <div id="img-bad-btn" class="btns">
+            <button class="btn btn-outline-danger"><i id="eval-bad-icon" class="far fa-thumbs-down"></i> <span class="badge badge-outline">7</span></button>
+          </div>
+          <div id="img-down-btn" class="btns">
+            <button class="btn btn-outline-light"><i id="download-icon" class="fas fa-download"></i></button>
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <a href="img/testimage4.jpg" data-toggle="modal" data-target="#show-image">
+          <div id="img-container">
+            <img src="img/testimage4.jpg" alt="image1" align="middle">
+          </div>
+          <div id="overlay"></div>
+        </a>
+        <div id="img-heading">
+          <span>Title...</span>
+        </div>
+        <div id="btns">
+          <div id="img-good-btn" class="btns">
+            <button class="btn btn-outline-success"><i id="eval-good-icon" class="far fa-thumbs-up"></i> <span class="badge badge-outline">32</span></button>
+          </div>
+          <div id="img-bad-btn" class="btns">
+            <button class="btn btn-outline-danger"><i id="eval-bad-icon" class="far fa-thumbs-down"></i> <span class="badge badge-outline">7</span></button>
+          </div>
+          <div id="img-down-btn" class="btns">
+            <button class="btn btn-outline-light"><i id="download-icon" class="fas fa-download"></i></button>
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <a href="img/testimage5.jpg" data-toggle="modal" data-target="#show-image">
+          <div id="img-container">
+            <img src="img/testimage5.jpg" alt="image1" align="middle">
+          </div>
+          <div id="overlay"></div>
+        </a>
+        <div id="img-heading">
+          <span>Title...</span>
+        </div>
+        <div id="btns">
+          <div id="img-good-btn" class="btns">
+            <button class="btn btn-outline-success"><i id="eval-good-icon" class="far fa-thumbs-up"></i> <span class="badge badge-outline">32</span></button>
+          </div>
+          <div id="img-bad-btn" class="btns">
+            <button class="btn btn-outline-danger"><i id="eval-bad-icon" class="far fa-thumbs-down"></i> <span class="badge badge-outline">7</span></button>
+          </div>
+          <div id="img-down-btn" class="btns">
+            <button class="btn btn-outline-light"><i id="download-icon" class="fas fa-download"></i></button>
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <a href="img/testimage6.jpg" data-toggle="modal" data-target="#show-image">
+          <div id="img-container">
+            <img src="img/testimage6.jpg" alt="image1" align="middle">
+          </div>
+          <div id="overlay"></div>
+        </a>
+        <div id="img-heading">
+          <span>Title...</span>
+        </div>
+        <div id="btns">
+          <div id="img-good-btn" class="btns">
+            <button class="btn btn-outline-success"><i id="eval-good-icon" class="far fa-thumbs-up"></i> <span class="badge badge-outline">32</span></button>
+          </div>
+          <div id="img-bad-btn" class="btns">
+            <button class="btn btn-outline-danger"><i id="eval-bad-icon" class="far fa-thumbs-down"></i> <span class="badge badge-outline">7</span></button>
+          </div>
+          <div id="img-down-btn" class="btns">
+            <button class="btn btn-outline-light"><i id="download-icon" class="fas fa-download"></i></button>
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <a href="img/testimage7.jpg" data-toggle="modal" data-target="#show-image">
+          <div id="img-container">
+            <img src="img/testimage7.jpg" alt="image1" align="middle">
+          </div>
+          <div id="overlay"></div>
+        </a>
+        <div id="img-heading">
+          <span>Title...</span>
+        </div>
+        <div id="btns">
+          <div id="img-good-btn" class="btns">
+            <button class="btn btn-outline-success"><i id="eval-good-icon" class="far fa-thumbs-up"></i> <span class="badge badge-outline">32</span></button>
+          </div>
+          <div id="img-bad-btn" class="btns">
+            <button class="btn btn-outline-danger"><i id="eval-bad-icon" class="far fa-thumbs-down"></i> <span class="badge badge-outline">7</span></button>
+          </div>
+          <div id="img-down-btn" class="btns">
+            <button class="btn btn-outline-light"><i id="download-icon" class="fas fa-download"></i></button>
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <a href="img/testimage8.jpg" data-toggle="modal" data-target="#show-image">
+          <div id="img-container">
+            <img src="img/testimage8.jpg" alt="image1" align="middle">
+          </div>
+          <div id="overlay"></div>
+        </a>
+        <div id="img-heading">
+          <span>Title...</span>
+        </div>
+        <div id="btns">
+          <div id="img-good-btn" class="btns">
+            <button class="btn btn-outline-success"><i id="eval-good-icon" class="far fa-thumbs-up"></i> <span class="badge badge-outline">32</span></button>
+          </div>
+          <div id="img-bad-btn" class="btns">
+            <button class="btn btn-outline-danger"><i id="eval-bad-icon" class="far fa-thumbs-down"></i> <span class="badge badge-outline">7</span></button>
+          </div>
+          <div id="img-down-btn" class="btns">
+            <button class="btn btn-outline-light"><i id="download-icon" class="fas fa-download"></i></button>
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <a href="img/testimage9.jpg" data-toggle="modal" data-target="#show-image">
+          <div id="img-container">
+            <img src="img/testimage9.jpg" alt="image1" align="middle">
+          </div>
+          <div id="overlay"></div>
+        </a>
+        <div id="img-heading">
+          <span>Title...</span>
+        </div>
+        <div id="btns">
+          <div id="img-good-btn" class="btns">
+            <button class="btn btn-outline-success"><i id="eval-good-icon" class="far fa-thumbs-up"></i> <span class="badge badge-outline">32</span></button>
+          </div>
+          <div id="img-bad-btn" class="btns">
+            <button class="btn btn-outline-danger"><i id="eval-bad-icon" class="far fa-thumbs-down"></i> <span class="badge badge-outline">7</span></button>
+          </div>
+          <div id="img-down-btn" class="btns">
+            <button class="btn btn-outline-light"><i id="download-icon" class="fas fa-download"></i></button>
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <a href="img/testimage10.jpg" data-toggle="modal" data-target="#show-image">
+          <div id="img-container">
+            <img src="img/testimage10.jpg" alt="image1" align="middle">
+          </div>
+          <div id="overlay"></div>
+        </a>
+        <div id="img-heading">
+          <span>Title...</span>
+        </div>
+        <div id="btns">
+          <div id="img-good-btn" class="btns">
+            <button class="btn btn-outline-success"><i id="eval-good-icon" class="far fa-thumbs-up"></i> <span class="badge badge-outline">32</span></button>
+          </div>
+          <div id="img-bad-btn" class="btns">
+            <button class="btn btn-outline-danger"><i id="eval-bad-icon" class="far fa-thumbs-down"></i> <span class="badge badge-outline">7</span></button>
+          </div>
+          <div id="img-down-btn" class="btns">
+            <button class="btn btn-outline-light"><i id="download-icon" class="fas fa-download"></i></button>
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <a href="img/testimage11.jpg" data-toggle="modal" data-target="#show-image">
+          <div id="img-container">
+            <img src="img/testimage11.jpg" alt="image1" align="middle">
+          </div>
+          <div id="overlay"></div>
+        </a>
+        <div id="img-heading">
+          <span>Title...</span>
+        </div>
+        <div id="btns">
+          <div id="img-good-btn" class="btns">
+            <button class="btn btn-outline-success"><i id="eval-good-icon" class="far fa-thumbs-up"></i> <span class="badge badge-outline">32</span></button>
+          </div>
+          <div id="img-bad-btn" class="btns">
+            <button class="btn btn-outline-danger"><i id="eval-bad-icon" class="far fa-thumbs-down"></i> <span class="badge badge-outline">7</span></button>
+          </div>
+          <div id="img-down-btn" class="btns">
+            <button class="btn btn-outline-light"><i id="download-icon" class="fas fa-download"></i></button>
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <a href="img/testimage12.jpeg" data-toggle="modal" data-target="#show-image">
+          <div id="img-container">
+            <img src="img/testimage12.jpeg" alt="image1" align="middle">
+          </div>
+          <div id="overlay"></div>
+        </a>
+        <div id="img-heading">
+          <span>Title...</span>
+        </div>
+        <div id="btns">
+          <div id="img-good-btn" class="btns">
+            <button class="btn btn-outline-success"><i id="eval-good-icon" class="far fa-thumbs-up"></i> <span class="badge badge-outline">32</span></button>
+          </div>
+          <div id="img-bad-btn" class="btns">
+            <button class="btn btn-outline-danger"><i id="eval-bad-icon" class="far fa-thumbs-down"></i> <span class="badge badge-outline">7</span></button>
+          </div>
+          <div id="img-down-btn" class="btns">
+            <button class="btn btn-outline-light"><i id="download-icon" class="fas fa-download"></i></button>
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <a href="img/testimage13.jpeg" data-toggle="modal" data-target="#show-image">
+          <div id="img-container">
+            <img src="img/testimage13.jpeg" alt="image1" align="middle">
+          </div>
+          <div id="overlay"></div>
+        </a>
+        <div id="img-heading">
+          <span>Title...</span>
+        </div>
+        <div id="btns">
+          <div id="img-good-btn" class="btns">
+            <button class="btn btn-outline-success"><i id="eval-good-icon" class="far fa-thumbs-up"></i> <span class="badge badge-outline">32</span></button>
+          </div>
+          <div id="img-bad-btn" class="btns">
+            <button class="btn btn-outline-danger"><i id="eval-bad-icon" class="far fa-thumbs-down"></i> <span class="badge badge-outline">7</span></button>
+          </div>
+          <div id="img-down-btn" class="btns">
+            <button class="btn btn-outline-light"><i id="download-icon" class="fas fa-download"></i></button>
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <a href="img/testimage14.jpg" data-toggle="modal" data-target="#show-image">
+          <div id="img-container">
+            <img src="img/testimage14.jpg" alt="image1" align="middle">
+          </div>
+          <div id="overlay"></div>
+        </a>
+        <div id="img-heading">
+          <span>Title...</span>
+        </div>
+        <div id="btns">
+          <div id="img-good-btn" class="btns">
+            <button class="btn btn-outline-success"><i id="eval-good-icon" class="far fa-thumbs-up"></i> <span class="badge badge-outline">32</span></button>
+          </div>
+          <div id="img-bad-btn" class="btns">
+            <button class="btn btn-outline-danger"><i id="eval-bad-icon" class="far fa-thumbs-down"></i> <span class="badge badge-outline">7</span></button>
+          </div>
+          <div id="img-down-btn" class="btns">
+            <button class="btn btn-outline-light"><i id="download-icon" class="fas fa-download"></i></button>
+          </div>
+        </div>
+      </div>
+
+
+
+
+    </div>
+  </section>
+
+
+  <!-- POST MODAL -->
+   <div class="modal fade" id="addPostModal">
+     <div class="modal-dialog modal-lg">
+       <div class="modal-content">
+         <div class="modal-header bg-dark text-white">
+           <h5 class="modal-title">작성</h5>
+           <button class="close btn bg-light" data-dismiss="modal"><span>&times;</span></button>
+         </div>
+         <div class="modal-body">
+           <form>
+             <div class="form-group">
+               <label for="title">제목</label>
+               <input type="text" class="form-control">
+             </div>
+             <div class="form-group">
+               <label for="category">분류</label>
+               <select class="form-control">
+                 <option value="">개웃김</option>
+                 <option value="">진지</option>
+                 <option value="">후방</option>
+                 <option value="">움짤</option>
+               </select>
+             </div>
+             <div class="form-group">
+               <label for="body">내용</label>
+               <textarea name="editor1" class="form-control"></textarea>
+             </div>
+           </form>
+         </div>
+         <div class="modal-footer">
+           <button class="btn btn-secondary" data-dismiss="modal">닫기</button>
+           <button class="btn btn-primary" data-dismiss="modal">임시저장</button>
+           <button class="btn btn-success" data-dismiss="modal">게시하기</button>
+         </div>
+       </div>
+     </div>
+   </div>
+
+   <!-- IMAGE SHOW MODAL -->
+   <div class="modal fade" id="show-image" tabindex="-1" role="dialog" aria-labelledby="imageshow" aria-hidden="true">
+     <div class="modal-dialog modal-lg" role="document">
+       <div class="modal-content">
+         <div class="modal-header">
+           <h5 class="modal-title" id="image-show-title">Modal title</h5>
+           <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+             <span aria-hidden="true">&times;</span>
+           </button>
+         </div>
+         <div class="modal-body">
+           <img src="img/testimage1.jpg" alt="image1" align="middle">
+         </div>
+         <div class="modal-footer justify-content-start">
+           <span>#jean #mood #retor #bike</span>
+           <form class="ml-auto" action="">
+             <div class="p-2" role="group">
+               <a href="#" class="btn btn-outline-secondary btn-sm" data-toggle="modal" data-target="#addPostModal" role="edit">
+                 <i class="fas fa-edit fa-lg"></i>
+               </a>
+               <a href="#" class="btn btn-outline-secondary btn-sm" role="delete">
+                 <i class="fas fa-trash-alt fa-lg"></i>
+               </a>
+             </div>
+           </form>
+         </div>
+       </div>
+     </div>
+   </div>
+
+
+
+  <!-- FOOTER -->
+  <footer id="main-footer" class="text-center p-4">
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <p>Copyright 2018 &copy; ㅈㅗㄴㅂㅓ </p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+  <!-- SCRIPTS -->
+  <script src="js/jquery.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+  <script>
+      $('.dropdown').on('show.bs.dropdown', function() {
+      $(this).find('.dropdown-menu').first().stop(true, true).slideDown();
+    });
+
+    // Add slideUp animation to Bootstrap dropdown when collapsing.
+    $('.dropdown').on('hide.bs.dropdown', function() {
+      $(this).find('.dropdown-menu').first().stop(true, true).slideUp();
+    });
+  </script>
+  <script src="https://cdn.ckeditor.com/4.8.0/standard/ckeditor.js"></script>
+  <script>
+      CKEDITOR.replace( 'editor1' );
+  </script>
+
+
+
+</body>
+
+</html>
